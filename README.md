@@ -56,3 +56,26 @@ To check remote url
 ------------------------------------
 git remote  -v
 ```
+
+```
+BUILD DOCKER IMAGES
+------------------------------
+docker build -t <image_name>:<tagname> .
+
+To list docker images
+-------------------------------------
+docker images
+
+
+Run docker image
+------------------------
+docker run -p 5000:5000 -e PORT=5000 a2d35ded190e
+
+To check running container in docker
+----------------------------------------------
+docker ps
+
+Docker STOP Command
+-----------------------
+docker stop container_id
+```
